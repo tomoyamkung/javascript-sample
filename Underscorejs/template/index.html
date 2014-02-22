@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf8>
+		<title></title>
+	</head>
+	<body>
+		<audio id="player" controls></audio><br/>
+		
+		<select id="list" >
+			<option value="" />
+		</select>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+		<script type="text/javascript" src="./js/mp3list.js" charset="utf8"></script>
+		<script type="text/javascript" src="./js/script.js" charset="utf8"></script>
+	</body>
+</html>
+
+<script type="text/template" id="option_template">
+	<option value="<%= filename %>"><%= filename %></option>
+</script>
