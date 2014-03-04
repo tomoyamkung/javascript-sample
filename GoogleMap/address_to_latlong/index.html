@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf8>
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	</head>
+	<body>
+		<div id="field">
+			<input type="text" id="address" size="70" value="東京都墨田区押上１−１−２" />
+			<span>
+				緯度:<span id="latitude" ></span>&nbsp;&nbsp;経度:<span id="longitude" ></span>&nbsp;&nbsp;<span id="failure"></span>
+			</span>
+		</div>
+		<div id="map-canvas"></div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="./js/script.js" charset="utf8"></script>
+	</body>
+</html>
